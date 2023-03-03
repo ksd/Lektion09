@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4459CE8C29B1CE3C00B4FCE0 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4459CE8B29B1CE3C00B4FCE0 /* AvatarView.swift */; };
 		44D22F7229AF48DB003A3B8E /* RandomUserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22F7129AF48DB003A3B8E /* RandomUserApp.swift */; };
 		44D22F7429AF48DB003A3B8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22F7329AF48DB003A3B8E /* ContentView.swift */; };
 		44D22F7629AF48DC003A3B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D22F7529AF48DC003A3B8E /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4459CE8B29B1CE3C00B4FCE0 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		44D22F6E29AF48DB003A3B8E /* RandomUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D22F7129AF48DB003A3B8E /* RandomUserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserApp.swift; sourceTree = "<group>"; };
 		44D22F7329AF48DB003A3B8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				44D22F8329AF4A6D003A3B8E /* Model */,
 				44D22F7129AF48DB003A3B8E /* RandomUserApp.swift */,
 				44D22F7329AF48DB003A3B8E /* ContentView.swift */,
+				4459CE8B29B1CE3C00B4FCE0 /* AvatarView.swift */,
 				44D22F8829AF61D8003A3B8E /* UserRowCell.swift */,
 				44D22F7529AF48DC003A3B8E /* Assets.xcassets */,
 				44D22F7729AF48DC003A3B8E /* Preview Content */,
@@ -165,6 +168,7 @@
 				44D22F7429AF48DB003A3B8E /* ContentView.swift in Sources */,
 				44D22F8029AF4947003A3B8E /* StateController.swift in Sources */,
 				44D22F8729AF5413003A3B8E /* NetworkService.swift in Sources */,
+				4459CE8C29B1CE3C00B4FCE0 /* AvatarView.swift in Sources */,
 				44D22F7229AF48DB003A3B8E /* RandomUserApp.swift in Sources */,
 				44D22F8929AF61D8003A3B8E /* UserRowCell.swift in Sources */,
 			);

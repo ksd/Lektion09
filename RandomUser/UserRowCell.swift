@@ -12,11 +12,7 @@ struct UserRowCell: View {
     var body: some View {
         HStack{
             AsyncImage(url: user.picture.large) { image in
-                image
-                    .resizable()
-                    .scaledToFit()
-                    .cornerRadius(8)
-                    .frame(width: 50, height: 50)
+                AvatarView(image: image)
             } placeholder: {
                 ProgressView()
             }

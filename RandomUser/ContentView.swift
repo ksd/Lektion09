@@ -21,6 +21,7 @@ struct ContentView: View {
         NavigationView {
             List(users) { user in
                 UserRowCell(user: user)
+                    .listRowSeparator(.hidden)
             }
             .navigationTitle(Text("Users"))
         }
