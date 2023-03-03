@@ -20,8 +20,12 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(users) { user in
-                UserRowCell(user: user)
-                    .listRowSeparator(.hidden)
+                NavigationLink {
+                    UserDetailView(user:user)
+                } label: {
+                    UserRowCell(user: user)
+                }
+                .listRowSeparator(.hidden)
             }
             .navigationTitle(Text("Users"))
         }

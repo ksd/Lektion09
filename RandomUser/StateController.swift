@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-class StateController: ObservableObject {
+@MainActor class StateController: ObservableObject {
     @Published var users: [User] = []
     
     init(){
         guard let randomUserUrl = URL(string: "https://randomuser.me/api/?nat=DK&results=50") else {return}
         fetchUsers(from: randomUserUrl)
     }
-    
-    func fetchUsers(from url: URL) {
-        Task(priority: .background) {
+
+   private func fetchUsers(from url: URL) {
+      Task {
             guard let rawUserData = await NetworkService.getData(from: url) else {return}
             let decoder = JSONDecoder()
             do {
